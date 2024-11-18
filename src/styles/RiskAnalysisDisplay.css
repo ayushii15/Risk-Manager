@@ -1,0 +1,53 @@
+.risk-analysis-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gauge-wrapper {
+  position: relative;
+  width: 220px; /* Adjusted for better layout */
+  height: 110px; /* Semi-circle height */
+  margin: 0 auto;
+}
+
+.meter-ring {
+  width: 100%; 
+  height: auto;
+}
+
+.pointer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20px; /* Increased for better visibility */
+  height: 70px; /* Longer pointer */
+  transform-origin: bottom center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pointer-image {
+  width: 200%; 
+  height: auto;
+}
+
+.score-details {
+  margin-top: 5rem; /* Increased spacing for better alignment */
+  font-family: Arial, sans-serif;
+}
+
+.score-details h3 {
+  margin-bottom: 8px;
+  font-size: 1.3rem; /* Slightly larger font */
+  color: #333;
+}
+
+.score-details p {
+  margin: 6px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
